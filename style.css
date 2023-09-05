@@ -1,0 +1,87 @@
+@import url(https://www.fontfabric.com/script/);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 5, 2, 0.6)), url(https://img.freepik.com/premium-photo/background-cooking-black-wooden-background-top-view-free-space-your-text_187166-5650.jpg?w=1380);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{    /*For logo align*/
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: rgb(243, 234, 197);
+}
+nav ul{ /*for heading home,order etc*/
+    float: right;
+    line-height: 80px;
+
+}
+nav ul li{/*For Allign or headings*/
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{ /*For heading such as home and so on will be corrected such as its color and so on*/
+    color: rgb(251, 249, 245);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+nav ul li a:hover{/*To Hover the menu options */
+    background-color:rgb(224, 80, 13);
+    transition: 0.5s ease;
+}
+nav ul li .active{ /*To hover particular menu option*/
+    background-color: rgb(24, 165, 170);
+}
+.article{/*For change of position of article*/
+    width:50%;
+    margin:auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{ /*For heading size increase*/
+    font-size: 36px;
+    color: #5c0505;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article h2{ /*For change of size of heading*/
+    font-size: 36px;
+    color: #6cb60b;
+    letter-spacing: 1.5px;
+    font-weight: 1000;
+    margin-bottom: 25px;
+}
+.article p{ /*For change of paqragraph size*/
+    font-size: 26px;
+    color: #b1bdc3;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: aqua;
+    padding 12px 25px;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+   text-decoration: none;
+   background-color: #0f5327;
+}
+.article .btn:hover{
+    background-color:rgb(224, 80, 13);
+}
